@@ -1,0 +1,152 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #191c32;
+}
+
+.navbar{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color:#191c32;
+    color: white;
+}
+
+.menu { 
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+
+}
+.menu a {
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+}
+.menu a:hover {
+    background-color: lightgreen;
+    color:#191c32;
+    transition: ease-in .4s;
+}
+
+
+.brand span{
+    color: lightgreen;
+}
+
+.presentacion {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+h1 span {
+    color: lightgreen;
+}
+
+.downloadcv{
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.downloadcv:hover{
+    background-color: white;
+}
+.presentacion img {
+    width: 350px;
+    border: solid lightgreen;
+}
+.tituloworks {
+    background-color:#191c32;
+    color: white;
+    
+    padding: 10px;
+}
+
+.imagenesworks img {
+    width: 1000px;
+    align-items: center;
+    margin-bottom: 1.5cm;
+    
+    margin-left: 150px;
+    border: solid lightgreen;
+}
+
+#socialmedia>h2  {
+    padding: 10px;
+    color: white;
+    padding: 10px;
+    
+}
+img.linkedin{ 
+    width: 2cm;
+    margin-right: 1cm;
+    margin-top: 15px;
+}
+img.instagram { 
+    width: 2cm;
+    margin-right: 1cm;
+}
+img.instagram:hover{
+    border-radius: 26px;
+    transition: ease-in .1s;
+}
+
+img.linkedin:hover{
+    transition: ease-in .1s;
+    border-radius: 26px;
+}
+
+#contact>h2 {
+    padding: 10px;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+img.email{ 
+    width: 2cm;
+    margin-right: 1cm;
+    margin-top: 15px;
+}
+img.whatsapp { 
+    width: 2cm;
+    margin-right: 1cm;
+}
+img.email:hover{
+    border-radius: 26px;
+    transition: ease-in .1s;
+}
+
+img.whatsapp:hover{
+    transition: ease-in .1s;
+    border-radius: 26px;
+}
+
+.form {
+    display: flex;
+}
